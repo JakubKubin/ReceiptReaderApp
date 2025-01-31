@@ -199,11 +199,11 @@ class LoginPageState extends State<LoginPage> {
                                       onPressed: () => _login(false),
                                       color: strongViolet,
                                       text: 'Login'),
-                                  const SizedBox(height: 24.0),
-                                  CustomButton(
-                                      onPressed: () => _login(true),
-                                      color: strongViolet,
-                                      text: 'Test Login'),
+                                  // const SizedBox(height: 24.0),
+                                  // CustomButton(
+                                  //     onPressed: () => _login(true),
+                                  //     color: strongViolet,
+                                  //     text: 'Test Login'),
                                   const SizedBox(height: 12.0),
                                   TextButton(
                                     onPressed: () {
